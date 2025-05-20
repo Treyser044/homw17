@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto';
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(Rectangle\ 18.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vhod{
+    background: url(Mask\ Group.svg);
+    width: 80%;
+height: 392.1844787597656px;
+display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+gap: 46px;
+background-color: white;
+box-shadow: 0px 0px 35px 0px #D4145A40;
+border-radius: 15px;
+}
+
+.put{
+    display: flex;
+    width: 749px;
+    flex-wrap: wrap;
+    gap: 23px;
+
+}
+
+.put input{
+    padding-left: 14px;
+    border: 1px solid #A1A1A1
+}
+
+
+
+.jigar{
+    width: 362.4922790527344px;
+height: 50.724178314208984px;
+top: 388.58px;
+left: 369.27px;
+border-radius: 9px;
+border-width: 1px;
+
+}
+
+.qot{
+    width: 749.72802734375px;
+height: 81.65354919433594px;
+border-radius: 9px;
+border-width: 1px;
+display: flex;
+}
+
+.vhod a{
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+width: 169px;
+height: 42px;
+border-radius: 9px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+@media (max-width:768px){
+    body{
+        background: url(Rectangle\ 18\ \(2\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .vhod{
+        width: 80%;
+        background: url(Mask\ Group\ \(1\).png);
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: white;
+    }
+
+    .jigar{
+        width: 432px;
+height: 41px;
+border-radius: 9px;
+border-width: 1px;
+
+    }
+
+    .qot{
+        width: 432px;
+height: 95px;
+border-radius: 9px;
+border-width: 1px;
+
+    }
+
+    .put{
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .vhod a{
+        width: 137px;
+height: 34px;
+border-radius: 9px;
+
+    }
+
+    .vhod h2{
+        font-family: Roboto;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+    }
+}
+
+@media (max-width:320px){
+    .body{
+     background: url(Rectangle\ 18\ \(1\).png);
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+    
+    .vhod {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        width: 90%;
+height: 298px;
+border-width: 1px;
+gap: 20px;
+    }
+
+    .vhod h2{
+        font-family: Roboto;
+font-weight: 500;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+    }
+
+    .put{
+        gap: 19px;
+        flex-direction: column;
+    }
+
+    .jigar{
+        width: 212px;
+height: 20px;
+border-width: 1px;
+border-radius: 9px;
+
+    }
+
+    .qot{
+        width: 212px;
+height: 95px;
+border-width: 1px;
+border-radius: 9px;
+text-align: center;
+    }
+
+    .vhod a{
+        width: 58px;
+height: 18px;
+border-radius: 4px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 9px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+    }
+}
